@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91474A128B90E2500905D18 /* WeSplitMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91474A028B90E2500905D18 /* WeSplitMainView.swift */; };
 		C96403B828B90C8A00287E31 /* HackingWithiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96403B728B90C8A00287E31 /* HackingWithiOSApp.swift */; };
 		C96403BA28B90C8A00287E31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96403B928B90C8A00287E31 /* ContentView.swift */; };
 		C96403BC28B90C8B00287E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96403BB28B90C8B00287E31 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91474A028B90E2500905D18 /* WeSplitMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitMainView.swift; sourceTree = "<group>"; };
 		C96403B428B90C8A00287E31 /* HackingWithiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackingWithiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96403B728B90C8A00287E31 /* HackingWithiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackingWithiOSApp.swift; sourceTree = "<group>"; };
 		C96403B928B90C8A00287E31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		C96403B628B90C8A00287E31 /* HackingWithiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C96403E128B90CAE00287E31 /* WeSplit */,
 				C96403B728B90C8A00287E31 /* HackingWithiOSApp.swift */,
 				C96403B928B90C8A00287E31 /* ContentView.swift */,
 				C96403BB28B90C8B00287E31 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				C96403D428B90C8B00287E31 /* HackingWithiOSUITestsLaunchTests.swift */,
 			);
 			path = HackingWithiOSUITests;
+			sourceTree = "<group>";
+		};
+		C96403E128B90CAE00287E31 /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				C91474A028B90E2500905D18 /* WeSplitMainView.swift */,
+			);
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96403BA28B90C8A00287E31 /* ContentView.swift in Sources */,
+				C91474A128B90E2500905D18 /* WeSplitMainView.swift in Sources */,
 				C96403B828B90C8A00287E31 /* HackingWithiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
